@@ -1,0 +1,42 @@
+header .container {
+  flex-direction: column;
+}
+
+header .navbarul ul li .nav-link.active {
+  color: #fff;
+  background-color: #1b1b1b;
+}
+
+header .navbarul ul li .nav-link:hover {
+  color: #fff;
+  background-color: #1b1b1b;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+main .slider .slide {
+  background-image: url(../images/slider-bg.jpg);
+}
+
+
+
+main .slider .slide .carousel-inner .carousel-item .row .text-box {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 992px) {
+  header .container {
+    flex-direction: row;
+  }
+}
+
+/* 
+
+ */
